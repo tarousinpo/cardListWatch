@@ -1,0 +1,2 @@
+# cardListWatch
+カードリストを見つづける
