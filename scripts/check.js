@@ -29,19 +29,19 @@ const GAMES = [
   {
     key:   'union_arena',
     label: 'Union Arena',
-    url:   'https://www.carddass.com/unionarena/cardlist/',
+    url:   'https://www.unionarena-tcg.com/jp/cardlist/',
     parse: parseUnionArena,
   },
   {
     key:   'one_piece',
     label: 'ワンピースカードゲーム',
-    url:   'https://www.onepiece-cardgame.com/cardlist/?series=550115',
+    url:   'https://www.onepiece-cardgame.com/cardlist/',
     parse: parseOnePiece,
   },
   {
     key:   'gundam',
     label: 'ガンダムカードゲーム',
-    url:   'https://www.gundam-gcg.com/jp/cards/?package=615103',
+    url:   'https://www.gundam-gcg.com/jp/cards/',
     parse: parseGundam,
   },
 ];
