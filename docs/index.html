@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Union Arena カードリストウォッチャー</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      max-width: 540px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #58a6ff;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #8b949e;
+      margin-bottom: 0.25rem;
+    }
+
+    .value {
+      font-size: 1.1rem;
+      color: #e6edf3;
+      margin-bottom: 1.25rem;
+      word-break: break-all;
+    }
+
+    .code {
+      display: inline-block;
+      background: #1f6feb22;
+      border: 1px solid #1f6feb55;
+      border-radius: 4px;
+      padding: 0.1em 0.5em;
+      font-family: monospace;
+      font-size: 1rem;
+      color: #79c0ff;
+    }
+
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .error {
+      color: #f85149;
+      background: #f8514922;
+      border: 1px solid #f8514944;
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+    }
+
+    .loading { color: #8b949e; font-style: italic; }
+
+    footer {
+      margin-top: 1.75rem;
+      font-size: 0.75rem;
+      color: #6e7681;
+      border-top: 1px solid #21262d;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎴 Union Arena カードリストウォッチャー</h1>
+    <div id="content" class="loading">読み込み中…</div>
+    <footer>
+      データは GitHub Actions により 10 分ごとに自動更新されます。<br>
+      <a href="https://github.com/tarousinpo/cardListWatch" target="_blank" rel="noopener">
+        tarousinpo/cardListWatch
+      </a>
+    </footer>
+  </div>
+
+  <script>
+    (async () => {
+      const el = document.getElementById('content');
+
+      try {
+        const res = await fetch('status.json?_=' + Date.now());
+        if (!res.ok) throw new Error(`status.json の取得に失敗しました (HTTP ${res.status})`);
+        const d = await res.json();
+
+        if (!d.latest_code) {
+          el.innerHTML = '<p class="error">まだデータがありません。最初のワークフロー実行をお待ちください。</p>';
+          return;
+        }
+
+        const checkedAt  = d.checked_at  ? new Date(d.checked_at).toLocaleString('ja-JP')  : '—';
+        const changedAt  = d.changed_at  ? new Date(d.changed_at).toLocaleString('ja-JP')  : '—';
+
+        el.innerHTML = `
+          <div class="label">最新セット名</div>
+          <div class="value">${escHtml(d.latest_name || d.latest_code)}</div>
+
+          <div class="label">プロダクトコード</div>
+          <div class="value"><span class="code">${escHtml(d.latest_code)}</span></div>
+
+          <div class="label">最終確認日時</div>
+          <div class="value">${escHtml(checkedAt)}</div>
+
+          <div class="label">最終更新検出日時</div>
+          <div class="value">${escHtml(changedAt)}</div>
+
+          <div class="label">カードリスト</div>
+          <div class="value">
+            <a href="${escHtml(d.source_url)}" target="_blank" rel="noopener">
+              ${escHtml(d.source_url)}
+            </a>
+          </div>
+        `;
+      } catch (err) {
+        el.innerHTML = `<p class="error">エラー: ${escHtml(err.message)}<br><br>
+          <strong>ヒント:</strong> GitHub Pages が有効になっているか、
+          また最初のワークフロー実行が完了しているかご確認ください。</p>`;
+      }
+    })();
+
+    function escHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+  </script>
+</body>
+</html>
