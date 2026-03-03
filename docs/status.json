@@ -1,7 +1,32 @@
-{
-  "latest_code": null,
-  "latest_name": null,
-  "source_url": "https://www.carddass.com/unionarena/cardlist/",
-  "checked_at": null,
-  "changed_at": null
-}
+[
+  {
+    "key": "union_arena",
+    "label": "Union Arena",
+    "latest_code": null,
+    "latest_name": null,
+    "source_url": "https://www.carddass.com/unionarena/cardlist/",
+    "checked_at": null,
+    "changed_at": null,
+    "fetch_error": null
+  },
+  {
+    "key": "one_piece",
+    "label": "ワンピースカードゲーム",
+    "latest_code": null,
+    "latest_name": null,
+    "source_url": "https://www.onepiece-cardgame.com/cardlist/?series=550115",
+    "checked_at": null,
+    "changed_at": null,
+    "fetch_error": null
+  },
+  {
+    "key": "gundam",
+    "label": "ガンダムカードゲーム",
+    "latest_code": null,
+    "latest_name": null,
+    "source_url": "https://www.gundam-gcg.com/jp/cards/?package=615103",
+    "checked_at": null,
+    "changed_at": null,
+    "fetch_error": null
+  }
+]

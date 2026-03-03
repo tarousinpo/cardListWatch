@@ -1,4 +1,4 @@
-name: Check Union Arena Card List
+name: Check Card Lists
 
 on:
   schedule:

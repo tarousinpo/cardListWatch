@@ -1,7 +1,7 @@
 {
   "name": "cardlistwatch",
   "version": "1.0.0",
-  "description": "Lightweight Union Arena card-list watcher with Discord notifications",
+  "description": "Multi-game card-list watcher (Union Arena, One Piece, Gundam) with Discord notifications",
   "private": true,
   "scripts": {
     "check": "node scripts/check.js"
