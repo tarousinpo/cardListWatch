@@ -5,8 +5,8 @@
     "latest_code": null,
     "latest_name": null,
     "source_url": "https://www.carddass.com/unionarena/cardlist/",
-    "checked_at": "2026-03-03T05:02:37.453Z",
-    "changed_at": "2026-03-03T05:02:37.453Z",
+    "checked_at": "2026-03-03T05:04:24.313Z",
+    "changed_at": "2026-03-03T05:04:24.313Z",
     "fetch_error": "HTTP 404 when fetching https://www.carddass.com/unionarena/cardlist/"
   },
   {
@@ -15,7 +15,7 @@
     "latest_code": "OP-15",
     "latest_name": "OP-15",
     "source_url": "https://www.onepiece-cardgame.com/cardlist/?series=550115",
-    "checked_at": "2026-03-03T05:02:37.453Z",
+    "checked_at": "2026-03-03T05:04:24.313Z",
     "changed_at": "2026-03-03T05:02:37.453Z",
     "fetch_error": null
   },
@@ -25,7 +25,7 @@
     "latest_code": "GD-03",
     "latest_name": "Steel Requiem [GD-03]",
     "source_url": "https://www.gundam-gcg.com/jp/cards/?package=615103",
-    "checked_at": "2026-03-03T05:02:37.453Z",
+    "checked_at": "2026-03-03T05:04:24.313Z",
     "changed_at": "2026-03-03T05:02:37.453Z",
     "fetch_error": null
   }
