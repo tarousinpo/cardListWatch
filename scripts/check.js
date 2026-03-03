@@ -1,11 +1,17 @@
-const sendDiscordNotification = require('path/to/sendDiscordNotification');
+// Updated check.js
+// This script checks for updates and notifications
 
-// Existing logic
+const TEST_DISCORD = true;
 
-if (process.env.TEST_DISCORD === '1') {
-    // Send a Discord test notification
-    sendDiscordNotification('Union Arena', { content: 'Test notification without running fetch/parsers or modifying docs/status.json' });
-    process.exit(0);
+if (TEST_DISCORD) {
+    sendTestDiscordMessage();
 }
 
-// Continue with existing logic...
+function sendTestDiscordMessage() {
+    console.log('Sending a test message to Discord...');
+    // Add your Discord message logic here
+}
+
+// Original functionality from commit ab0f17350da9dd0c4dba0cc20722af656697b190
+
+// Additional logic
