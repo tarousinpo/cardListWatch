@@ -1,0 +1,29 @@
+name: Discord Webhook Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "Message to send"
+        required: false
+        default: "Webhook test from GitHub Actions"
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord webhook
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          MESSAGE: ${{ github.event.inputs.message }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL is not set"
+            exit 1
+          fi
+
+          payload=$(jq -n --arg content "$MESSAGE" '{content: $content}')
+          curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -d "$payload" \
+            "$DISCORD_WEBHOOK_URL"
