@@ -81,6 +81,12 @@
       color: #79c0ff;
     }
 
+    .new-code {
+      background: #2ea04322;
+      border-color: #2ea04355;
+      color: #56d364;
+    }
+
     a { color: #58a6ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
 
@@ -161,8 +167,25 @@
           <div class="value">${escHtml(g.latest_name || g.latest_code)}</div>
 
           <div class="label">プロダクトコード</div>
-          <div class="value"><span class="code">${escHtml(g.latest_code)}</span></div>
+          <div class="value"><span class="code">${escHtml(g.latest_code)}</span></div>`;
 
+        if (g.new_codes && g.new_codes.length > 0) {
+          const newCodeBadges = g.new_codes
+            .map(c => `<span class="code new-code">${escHtml(c)}</span>`)
+            .join(' ');
+          body += `
+          <div class="label">🆕 前回から追加されたセット</div>
+          <div class="value">${newCodeBadges}</div>`;
+        }
+
+        const knownCount = g.known_codes ? g.known_codes.length : null;
+        if (knownCount !== null) {
+          body += `
+          <div class="label">収録弾数（既知）</div>
+          <div class="value">${knownCount} セット</div>`;
+        }
+
+        body += `
           <div class="label">最終確認日時</div>
           <div class="value">${escHtml(checkedAt)}</div>
 
