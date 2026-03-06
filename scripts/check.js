@@ -28,7 +28,7 @@ const path = require('path');
 const STATUS_FILE = path.join(__dirname, '..', 'docs', 'status.json');
 const USER_AGENT  =
   'cardListWatch/1.0 (https://github.com/tarousinpo/cardListWatch; ' +
-  'scheduled checker, runs every 10 min)';
+  'scheduled checker, runs every 1 min on 2026-03-06 JST)';
 
 // ── Game definitions ───────────────────────────────────────────────────────
 
