@@ -2,33 +2,14 @@ name: Check Card Lists
 
 on:
   schedule:
-    # 2026-03-06 JST のみ 1 分間隔で実行（gate ジョブで日付チェック）
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # Allow manual runs from the Actions UI
 
 permissions:
   contents: write
 
 jobs:
-  gate:
-    runs-on: ubuntu-latest
-    outputs:
-      should_run: ${{ steps.date.outputs.should_run }}
-    steps:
-      - name: Check today's date (JST)
-        id: date
-        run: |
-          TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "$TODAY_JST" = "2026-03-06" ]; then
-            echo "should_run=true" >> $GITHUB_OUTPUT
-          else
-            echo "should_run=false" >> $GITHUB_OUTPUT
-            echo "Skipping scheduled run: today is $TODAY_JST (1-min interval is for 2026-03-06 only)"
-          fi
-
   check:
-    needs: gate
-    if: needs.gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
 
     steps:

@@ -47,7 +47,7 @@ GitHub Pages に現在検出中の最新セット情報を公開します。
 ```yaml
 on:
   schedule:
-    - cron: '*/10 * * * *'   # ← ここを変更（cron 書式）
+    - cron: '*/5 * * * *'   # ← ここを変更（cron 書式）
 ```
 
 例:
@@ -55,6 +55,19 @@ on:
 - `0 * * * *`   → 1 時間ごと
 
 > **注意**: GitHub Actions の `schedule` は最短 5 分間隔です。
+
+---
+
+## ローカル 1 分ポーリング / Local 1-minute polling (macOS)
+
+カードリスト更新が予想される日に限り、MacBook から 1 分ごとに同じチェッカーを実行できます。
+
+```bash
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..." \
+  bash scripts/local-poll.sh
+```
+
+詳細は [docs/local-poller.md](docs/local-poller.md) を参照してください。
 
 ---
 
@@ -89,7 +102,7 @@ on:
 
 - 1 回の実行につき **1 リクエストのみ**送信します。
 - `User-Agent` に監視ツールである旨と GitHub リポジトリ URL を含めています。
-- 連続した高頻度アクセスは行いません（GitHub Actions の cron が 10 分以上の間隔を保証します）。
+- 連続した高頻度アクセスは行いません（GitHub Actions の cron が 5 分間隔を保証します）。
 
 ---
 
@@ -102,9 +115,11 @@ on:
 │       └── check.yml        # スケジュール実行ワークフロー
 ├── docs/
 │   ├── index.html           # GitHub Pages UI
+│   ├── local-poller.md      # ローカルポーラー手順書
 │   └── status.json          # 最新ステータス（ワークフローが更新）
 ├── scripts/
-│   └── check.js             # メインチェックスクリプト
+│   ├── check.js             # メインチェックスクリプト
+│   └── local-poll.sh        # ローカル 1 分ポーリングスクリプト
 ├── package.json
 └── README.md
 ```
