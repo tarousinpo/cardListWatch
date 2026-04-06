@@ -108,9 +108,9 @@
       "EX13BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-04-06T08:13:56.123Z",
+    "checked_at": "2026-04-06T08:48:58.304Z",
     "changed_at": "2026-03-06T09:16:45.086Z",
-    "fetch_error": "HTTP 502 when fetching https://www.unionarena-tcg.com/jp/cardlist/"
+    "fetch_error": null
   },
   {
     "key": "one_piece",
@@ -176,7 +176,7 @@
       "ST-30"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-04-06T08:13:56.123Z",
+    "checked_at": "2026-04-06T08:48:58.304Z",
     "changed_at": "2026-04-03T06:45:52.808Z",
     "fetch_error": null
   },
@@ -196,7 +196,7 @@
       "GD-02"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-04-06T08:13:56.123Z",
+    "checked_at": "2026-04-06T08:48:58.304Z",
     "changed_at": "2026-03-05T04:46:29.201Z",
     "fetch_error": null
   }
