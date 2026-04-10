@@ -108,7 +108,7 @@
       "EX13BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-04-10T06:15:45.812Z",
+    "checked_at": "2026-04-10T06:58:20.145Z",
     "changed_at": "2026-03-06T09:16:45.086Z",
     "fetch_error": null
   },
@@ -176,28 +176,27 @@
       "ST-30"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-04-10T06:15:45.812Z",
+    "checked_at": "2026-04-10T06:58:20.145Z",
     "changed_at": "2026-04-03T06:45:52.808Z",
     "fetch_error": null
   },
   {
     "key": "gundam",
     "label": "ガンダムカードゲーム",
-    "latest_code": "GD-03",
-    "latest_name": "Steel Requiem [GD-03]",
+    "latest_code": "GD-04",
+    "latest_name": "Phantom Aria [GD-04]",
     "new_codes": [
-      "GD-03",
-      "GD-01",
-      "GD-02"
+      "GD-04"
     ],
     "known_codes": [
       "GD-03",
       "GD-01",
-      "GD-02"
+      "GD-02",
+      "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-04-10T06:15:45.812Z",
-    "changed_at": "2026-03-05T04:46:29.201Z",
+    "checked_at": "2026-04-10T06:58:20.145Z",
+    "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
 ]
