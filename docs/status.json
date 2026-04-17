@@ -2,10 +2,10 @@
   {
     "key": "union_arena",
     "label": "Union Arena",
-    "latest_code": "UA49BT",
-    "latest_name": "魔都精兵のスレイブ【UA49BT】",
+    "latest_code": "UA51BT",
+    "latest_name": "ブースターパック 俺だけレベルアップな件【UA51BT】",
     "new_codes": [
-      "EX13BT"
+      "UA51BT"
     ],
     "known_codes": [
       "UA01BT",
@@ -105,11 +105,12 @@
       "UA44ST",
       "UA47ST",
       "UA48ST",
-      "EX13BT"
+      "EX13BT",
+      "UA51BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-04-17T07:48:06.087Z",
-    "changed_at": "2026-03-06T09:16:45.086Z",
+    "checked_at": "2026-04-17T08:22:19.444Z",
+    "changed_at": "2026-04-17T08:22:19.444Z",
     "fetch_error": null
   },
   {
@@ -176,7 +177,7 @@
       "ST-30"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-04-17T07:48:06.087Z",
+    "checked_at": "2026-04-17T08:22:19.444Z",
     "changed_at": "2026-04-03T06:45:52.808Z",
     "fetch_error": null
   },
@@ -195,7 +196,7 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-04-17T07:48:06.087Z",
+    "checked_at": "2026-04-17T08:22:19.444Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
