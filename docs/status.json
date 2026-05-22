@@ -112,17 +112,17 @@
       "UA50BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-05-22T03:23:12.053Z",
+    "checked_at": "2026-05-22T04:49:23.611Z",
     "changed_at": "2026-05-22T01:18:10.580Z",
     "fetch_error": null
   },
   {
     "key": "one_piece",
     "label": "ワンピースカードゲーム",
-    "latest_code": "OP-15",
-    "latest_name": "OP-15",
+    "latest_code": "OP-16",
+    "latest_name": "OP-16",
     "new_codes": [
-      "ST-30"
+      "OP-16"
     ],
     "known_codes": [
       "UTF-8",
@@ -177,11 +177,12 @@
       "ST-02",
       "ST-01",
       "P-105",
-      "ST-30"
+      "ST-30",
+      "OP-16"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-05-22T03:23:12.053Z",
-    "changed_at": "2026-04-03T06:45:52.808Z",
+    "checked_at": "2026-05-22T04:49:23.611Z",
+    "changed_at": "2026-05-22T04:49:23.611Z",
     "fetch_error": null
   },
   {
@@ -199,7 +200,7 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-05-22T03:23:12.053Z",
+    "checked_at": "2026-05-22T04:49:23.611Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
