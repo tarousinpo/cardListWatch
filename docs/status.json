@@ -5,8 +5,7 @@
     "latest_code": "UA53BT",
     "latest_name": "チェンソーマン【UA53BT】",
     "new_codes": [
-      "UA52BT",
-      "UA53BT"
+      "UA50BT"
     ],
     "known_codes": [
       "UA01BT",
@@ -109,11 +108,12 @@
       "EX13BT",
       "UA51BT",
       "UA52BT",
-      "UA53BT"
+      "UA53BT",
+      "UA50BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-05-22T00:11:19.824Z",
-    "changed_at": "2026-05-15T09:17:17.511Z",
+    "checked_at": "2026-05-22T01:18:10.580Z",
+    "changed_at": "2026-05-22T01:18:10.580Z",
     "fetch_error": null
   },
   {
@@ -180,7 +180,7 @@
       "ST-30"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-05-22T00:11:19.824Z",
+    "checked_at": "2026-05-22T01:18:10.580Z",
     "changed_at": "2026-04-03T06:45:52.808Z",
     "fetch_error": null
   },
@@ -199,7 +199,7 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-05-22T00:11:19.824Z",
+    "checked_at": "2026-05-22T01:18:10.580Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
