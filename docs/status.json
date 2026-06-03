@@ -112,7 +112,7 @@
       "UA50BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-06-03T02:28:53.336Z",
+    "checked_at": "2026-06-03T03:52:04.141Z",
     "changed_at": "2026-05-22T01:18:10.580Z",
     "fetch_error": null
   },
@@ -181,9 +181,9 @@
       "OP-16"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-06-03T02:28:53.336Z",
+    "checked_at": "2026-06-03T03:52:04.141Z",
     "changed_at": "2026-05-22T04:49:23.611Z",
-    "fetch_error": null
+    "fetch_error": "fetch failed"
   },
   {
     "key": "gundam",
@@ -200,8 +200,8 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-06-03T02:28:53.336Z",
+    "checked_at": "2026-06-03T03:52:04.141Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
-    "fetch_error": null
+    "fetch_error": "fetch failed"
   }
 ]
