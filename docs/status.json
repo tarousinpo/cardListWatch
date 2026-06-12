@@ -2,10 +2,11 @@
   {
     "key": "union_arena",
     "label": "Union Arena",
-    "latest_code": "UA53BT",
-    "latest_name": "チェンソーマン【UA53BT】",
+    "latest_code": "UA54BT",
+    "latest_name": "無職転生 ～異世界行ったら本気だす～【UA54BT】",
     "new_codes": [
-      "UA50BT"
+      "UA54BT",
+      "EX14BT"
     ],
     "known_codes": [
       "UA01BT",
@@ -109,11 +110,13 @@
       "UA51BT",
       "UA52BT",
       "UA53BT",
-      "UA50BT"
+      "UA50BT",
+      "UA54BT",
+      "EX14BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-06-12T08:36:22.214Z",
-    "changed_at": "2026-05-22T01:18:10.580Z",
+    "checked_at": "2026-06-12T10:03:31.278Z",
+    "changed_at": "2026-06-12T10:03:31.278Z",
     "fetch_error": null
   },
   {
@@ -181,7 +184,7 @@
       "OP-16"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-06-12T08:36:22.214Z",
+    "checked_at": "2026-06-12T10:03:31.278Z",
     "changed_at": "2026-05-22T04:49:23.611Z",
     "fetch_error": null
   },
@@ -200,7 +203,7 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-06-12T08:36:22.214Z",
+    "checked_at": "2026-06-12T10:03:31.278Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
