@@ -115,7 +115,7 @@
       "EX14BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-07-03T05:31:46.862Z",
+    "checked_at": "2026-07-03T06:44:25.375Z",
     "changed_at": "2026-06-12T10:03:31.278Z",
     "fetch_error": null
   },
@@ -125,7 +125,12 @@
     "latest_code": "OP-16",
     "latest_name": "OP-16",
     "new_codes": [
-      "OP-16"
+      "ST-36",
+      "ST-35",
+      "ST-34",
+      "ST-33",
+      "ST-32",
+      "ST-31"
     ],
     "known_codes": [
       "UTF-8",
@@ -181,11 +186,17 @@
       "ST-01",
       "P-105",
       "ST-30",
-      "OP-16"
+      "OP-16",
+      "ST-36",
+      "ST-35",
+      "ST-34",
+      "ST-33",
+      "ST-32",
+      "ST-31"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-07-03T05:31:46.862Z",
-    "changed_at": "2026-05-22T04:49:23.611Z",
+    "checked_at": "2026-07-03T06:44:25.375Z",
+    "changed_at": "2026-07-03T06:44:25.375Z",
     "fetch_error": null
   },
   {
@@ -203,7 +214,7 @@
       "GD-04"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-07-03T05:31:46.862Z",
+    "checked_at": "2026-07-03T06:44:25.375Z",
     "changed_at": "2026-04-10T06:58:20.145Z",
     "fetch_error": null
   }
