@@ -2,11 +2,11 @@
   {
     "key": "union_arena",
     "label": "Union Arena",
-    "latest_code": "UA54BT",
-    "latest_name": "無職転生 ～異世界行ったら本気だす～【UA54BT】",
+    "latest_code": "UA55BT",
+    "latest_name": "アイドルマスター シンデレラガールズ【UA55BT】",
     "new_codes": [
-      "UA54BT",
-      "EX14BT"
+      "UA55BT",
+      "UA55ST"
     ],
     "known_codes": [
       "UA01BT",
@@ -112,11 +112,13 @@
       "UA53BT",
       "UA50BT",
       "UA54BT",
-      "EX14BT"
+      "EX14BT",
+      "UA55BT",
+      "UA55ST"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-07-24T06:43:09.429Z",
-    "changed_at": "2026-06-12T10:03:31.278Z",
+    "checked_at": "2026-07-24T09:09:56.302Z",
+    "changed_at": "2026-07-24T09:09:56.302Z",
     "fetch_error": null
   },
   {
@@ -195,7 +197,7 @@
       "ST-31"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-07-24T06:43:09.429Z",
+    "checked_at": "2026-07-24T09:09:56.302Z",
     "changed_at": "2026-07-03T06:44:25.375Z",
     "fetch_error": null
   },
@@ -215,7 +217,7 @@
       "GD-05"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-07-24T06:43:09.429Z",
+    "checked_at": "2026-07-24T09:09:56.302Z",
     "changed_at": "2026-07-10T13:13:54.323Z",
     "fetch_error": null
   }
