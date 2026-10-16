@@ -121,7 +121,7 @@
       "UA57BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-10-16T05:11:31.051Z",
+    "checked_at": "2026-10-16T09:48:45.692Z",
     "changed_at": "2026-10-09T13:33:07.127Z",
     "fetch_error": null
   },
@@ -200,28 +200,29 @@
       "P-067"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-10-16T05:11:31.051Z",
+    "checked_at": "2026-10-16T09:48:45.692Z",
     "changed_at": "2026-09-16T05:20:22.629Z",
     "fetch_error": null
   },
   {
     "key": "gundam",
     "label": "ガンダムカードゲーム",
-    "latest_code": "GD-05",
-    "latest_name": "Freedom Ascension [GD-05]",
+    "latest_code": "GD-06",
+    "latest_name": "Stardust Trails [GD-06]",
     "new_codes": [
-      "GD-05"
+      "GD-06"
     ],
     "known_codes": [
       "GD-03",
       "GD-01",
       "GD-02",
       "GD-04",
-      "GD-05"
+      "GD-05",
+      "GD-06"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-10-16T05:11:31.051Z",
-    "changed_at": "2026-07-10T13:13:54.323Z",
+    "checked_at": "2026-10-16T09:48:45.692Z",
+    "changed_at": "2026-10-16T09:48:45.692Z",
     "fetch_error": null
   }
 ]
