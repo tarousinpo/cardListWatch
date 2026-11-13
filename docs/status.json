@@ -122,17 +122,17 @@
       "EX17BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-11-13T02:37:06.428Z",
+    "checked_at": "2026-11-13T09:57:05.742Z",
     "changed_at": "2026-10-23T12:12:22.968Z",
     "fetch_error": null
   },
   {
     "key": "one_piece",
     "label": "ワンピースカードゲーム",
-    "latest_code": "OP-17",
-    "latest_name": "OP-17",
+    "latest_code": "OP-18",
+    "latest_name": "OP-18",
     "new_codes": [
-      "EB-05"
+      "OP-18"
     ],
     "known_codes": [
       "UTF-8",
@@ -199,11 +199,12 @@
       "P-084",
       "P-107",
       "P-067",
-      "EB-05"
+      "EB-05",
+      "OP-18"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-11-13T02:37:06.428Z",
-    "changed_at": "2026-10-23T06:50:46.223Z",
+    "checked_at": "2026-11-13T09:57:05.742Z",
+    "changed_at": "2026-11-13T09:57:05.742Z",
     "fetch_error": null
   },
   {
@@ -223,7 +224,7 @@
       "GD-06"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-11-13T02:37:06.428Z",
+    "checked_at": "2026-11-13T09:57:05.742Z",
     "changed_at": "2026-10-16T09:48:45.692Z",
     "fetch_error": null
   }
