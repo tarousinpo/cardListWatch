@@ -2,10 +2,11 @@
   {
     "key": "union_arena",
     "label": "Union Arena",
-    "latest_code": "UA57BT",
-    "latest_name": "シュタインズ・ゲート【UA57BT】",
+    "latest_code": "UA58BT",
+    "latest_name": "D.Gray-man【UA58BT】",
     "new_codes": [
-      "EX17BT"
+      "UA58BT",
+      "EX18BT"
     ],
     "known_codes": [
       "UA01BT",
@@ -119,11 +120,13 @@
       "UA01DC",
       "EX16BT",
       "UA57BT",
-      "EX17BT"
+      "EX17BT",
+      "UA58BT",
+      "EX18BT"
     ],
     "source_url": "https://www.unionarena-tcg.com/jp/cardlist/",
-    "checked_at": "2026-11-20T04:19:29.379Z",
-    "changed_at": "2026-10-23T12:12:22.968Z",
+    "checked_at": "2026-11-20T13:12:53.409Z",
+    "changed_at": "2026-11-20T13:12:53.409Z",
     "fetch_error": null
   },
   {
@@ -203,7 +206,7 @@
       "OP-18"
     ],
     "source_url": "https://www.onepiece-cardgame.com/cardlist/",
-    "checked_at": "2026-11-20T04:19:29.379Z",
+    "checked_at": "2026-11-20T13:12:53.409Z",
     "changed_at": "2026-11-13T09:57:05.742Z",
     "fetch_error": null
   },
@@ -224,7 +227,7 @@
       "GD-06"
     ],
     "source_url": "https://www.gundam-gcg.com/jp/cards/",
-    "checked_at": "2026-11-20T04:19:29.379Z",
+    "checked_at": "2026-11-20T13:12:53.409Z",
     "changed_at": "2026-10-16T09:48:45.692Z",
     "fetch_error": null
   }
